@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: devUser
+      POSTGRES_PASSWORD: devPassword
+      POSTGRES_DB: orchestra-organizer
+    ports:
+      - "5432:5432"
