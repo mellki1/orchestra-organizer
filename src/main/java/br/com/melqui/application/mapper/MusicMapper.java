@@ -14,7 +14,7 @@ public interface MusicMapper {
     List<MusicDto> toMusicDtoList(List<Music> musicList);
 
     @Mapping(source = "singers", target = "singers")
-    @Mapping(target = "lastDayPlayed", dateFormat = "dd-MM-yyyy")
+    @Mapping(target = "lastDayPlayed", dateFormat = "yyyy-MM-dd")
     MusicDto toMusicDto(Music musicList);
 
     default String singerMap(List<Singer> singers) {
