@@ -5,10 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import java.util.Date;
 import java.util.List;
@@ -27,6 +30,11 @@ public class Music {
     private Boolean isHarp;
     private Date lastDayPlayed;
 
-    @ManyToMany(mappedBy = "musics")
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "singer_music",
+            joinColumns = @JoinColumn(name = "singers_id"),
+            inverseJoinColumns = @JoinColumn(name = "musics_id")
+    )
     private List<Singer> singers;
 }

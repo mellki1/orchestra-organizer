@@ -1,21 +1,24 @@
-insert into music (name,composer, isHarp, lastDayPlayed) values ('Vendavais', 'Shirley Carvalhaes', false, '2022-01-15');
-insert into music (name,composer, isHarp, lastDayPlayed) values ('115', 'Harpa Crista', true, '2022-01-15');
-insert into music (name,composer, isHarp, lastDayPlayed) values ('192', 'Harpa Crista', true, '2022-01-15');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (1,'Shirley Carvalhaes','false','2022-01-15T03:00:00.000Z','Vendavais');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (2,'Harpa Crista','true','2022-01-15T03:00:00.000Z','115');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (3,'Harpa Crista','true','2022-01-15T03:00:00.000Z','192');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (4,'Cassiane','false','2022-01-22T03:00:00.000Z','Vou seguir');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (5,'Harpa Crista','true','2022-01-22T03:00:00.000Z','442');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (6,'Harpa Crista','true','2022-01-22T03:00:00.000Z','432');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (7,'Shirley Cavalhares','false','2022-01-29T03:00:00.000Z','Ditosa Cidade');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (8,'Harpa Cristã','true','2022-01-29T03:00:00.000Z','243');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (9,'Harpa Cristã','true','2022-01-29T03:00:00.000Z','525');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (10,'Vanessa Carvalho','false','2022-02-04T03:00:00.000Z','Cicatrizes');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (11,'Sergio Lopes','false','2022-02-05T03:00:00.000Z','Entre nós outra vez');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (12,'Harpa Cristã','true','2022-02-04T03:00:00.000Z','39');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (13,'Harpa Cristã','true','2022-02-04T03:00:00.000Z','301');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (14,'Harpa Cristã','true','2022-02-05T03:00:00.000Z','304');
+INSERT INTO music(id,composer,isharp,lastdayplayed,name) VALUES (15,'Harpa Cristã','true','2022-02-05T03:00:00.000Z','200');
+
 insert into singer (name) values ('Vanessa Barros');
 insert into singer (name) values ('Kellen Lima');
 insert into singer (name) values ('Josiane');
 insert into singer (name) values ('Sarah');
 insert into singer (name) values ('Suelen');
 insert into singer (name) values ('Janaina');
-
--- KELLEN E VANESSA CANTA VENDAVAIS (A PRINCIPIO É SÓ A VANESSA A KELLEN SÓ AJUDA)
-insert into singer_music (singers_id, musics_id) values (1, 1);
-insert into singer_music (singers_id, musics_id) values (2, 1);
-
--- HINOS DA HARPA
-insert into singer_music (singers_id, musics_id) values (4, 2);
-insert into singer_music (singers_id, musics_id) values (5, 2);
-insert into singer_music (singers_id, musics_id) values (6, 2);
-insert into singer_music (singers_id, musics_id) values (4, 3);
-insert into singer_music (singers_id, musics_id) values (5, 3);
-insert into singer_music (singers_id, musics_id) values (6, 3);
+insert into singer (name) values ('Thiago');
+insert into singer (name) values ('Jalkh');
