@@ -18,12 +18,13 @@ INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (17, 'Harpa
 
 INSERT INTO singer (id, name) VALUES (1, 'Vanessa Barros');
 INSERT INTO singer (id, name) VALUES (2, 'Kellen Lima');
-INSERT INTO singer (id, name) VALUES (8, 'Jalkh');
 INSERT INTO singer (id, name) VALUES (3, 'Josiane');
 INSERT INTO singer (id, name) VALUES (4, 'Sarah');
+INSERT INTO singer (id, name) VALUES (5, 'Suelen');
 INSERT INTO singer (id, name) VALUES (6, 'Janaina');
 INSERT INTO singer (id, name) VALUES (7, 'Thiago');
-INSERT INTO singer (id, name) VALUES (5, 'Suelen');
+INSERT INTO singer (id, name) VALUES (8, 'Jalkh');
+INSERT INTO singer (id, name) VALUES (9, 'Daniel');
 
 --
 -- Data for Name: singer_music; Type: TABLE DATA; Schema: public; Owner: devUser
