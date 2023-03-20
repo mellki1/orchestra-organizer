@@ -15,6 +15,9 @@ INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (11, 'Sergi
 INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (16, 'Harpa Cristã', true, '2022-02-19 03:00:00', '545');
 INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (7, 'Shirley Cavalhares', false, '2022-02-19 03:00:00', 'Ditosa Cidade');
 INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (17, 'Harpa Cristã', true, '2022-02-19 03:00:00', '547');
+INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (18, 'Harpa Cristã', true, '2022-03-20 03:00:00', '243');
+INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (18, 'Harpa Cristã', true, '2022-03-20 03:00:00', '304');
+INSERT INTO music (id, composer, isharp, lastdayplayed, name) VALUES (18, 'Voz da verdade', true, '2022-03-20 03:00:00', 'Escudo');
 
 INSERT INTO singer (id, name) VALUES (1, 'Vanessa Barros');
 INSERT INTO singer (id, name) VALUES (2, 'Kellen Lima');
